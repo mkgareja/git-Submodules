@@ -1,0 +1,71 @@
+
+		<!-- <script src="style.js"></script> -->
+		</script>
+        <div id='CIMBG6c43626'> </div>
+      
+    
+      
+        
+                              <script type='text/javascript'>
+                                var CIMBG626;
+                                var siteSessionID = '';
+                                function  EtechButtonHandlerls(url, cb)
+                                {
+                                       var script = document.createElement("script");
+                                       script.setAttribute('type', 'text/javascript');
+                                        if (script.readyState)
+                                          {
+                                            script.onreadystatechange = function()
+                                              {
+                                                  if (script.readyState == "loaded" || script.readyState == "complete")
+                                                  {
+                                                    script.onreadystatechange = null;
+                                                    cb();
+                                                 }
+                                              };
+                                          }
+                                          else
+                                            {
+                                              script.onload = function() 
+                                                {
+                                                  cb();
+                                                };
+                                            }
+                                        script.setAttribute('src', '' + url + '');
+                                        document.getElementsByTagName('head')[0].appendChild(script);
+                                        }
+                                          EtechButtonHandlerls('http:'!= document.location.protocol ? 'http://10.10.10.86/wechat/JS/buttonHandler.js' : 'http://10.10.10.86/wechat/JS/buttonHandler.js', function() {
+                                          CIMBG626=new EtechButtonHandler();
+										  CIMBG626.OrgID=168;
+                                          CIMBG626.btnID=626;
+                                          CIMBG626.hostSiteSessionID=siteSessionID;
+                                          CIMBG626.buttonControlID='CIMBG6c43626'
+                                          CIMBG626.BootupScript('10.10.10.86/wechat/',CIMBG626,'CIMBG626');
+                                          
+                                          }
+                                        );
+                                        </script>
+                                        
+                                       <!--- Please insert below function in your page to customize your action. -->
+                                      <script type='text/javascript'>
+                                      
+                                        OIXButtonChatCallback=function(Action)
+                                        {
+                                            
+                                            if(Action=="1") //Your representive is available and visitor is interested in chat with your representive.
+                                            {
+                                              //Insert your code to perform a action Your representive is available and visitor is interested in chat with your representive.
+                                            }
+                                            else if(Action=="0")  //Your representive is not available but visitor want to leave a message for you.
+                                            {
+                                              //Insert your code to perform a action if your representive is not available but visitor want to leave a message for you.
+                                            }
+                                            else if(Action=="-1") //Your representive is busy but visitor want to leave a message for you.
+                                            {
+                                              //Insert your code to perform a action if your representive is busy but visitor want to leave a message for you.
+                                            }
+                                        }
+                                     </script>
+        
+      
+    
